@@ -22,3 +22,4 @@ sed -io 's/^plugins=.*/plugins=(autojump git zsh-autosuggestions node osx xcode 
 sed -io 's/^ZSH_THEME.*/ZSH_THEME="avit"/' ~/.zshrc
 
 echo 'export PATH="/usr/local/opt/node@12/bin:$PATH"' >> ~/.zshrc
+
