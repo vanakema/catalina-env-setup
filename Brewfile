@@ -1,5 +1,8 @@
+tap 'git-duet/tap'
+
 brew 'zsh-completions'
 brew 'node@12'
+brew 'git-duet/tap/git-duet'
 
 cask 'docker'
 cask 'intellij-idea'
