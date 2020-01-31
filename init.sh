@@ -21,3 +21,4 @@ echo "source ~/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlightin
 sed -io 's/^plugins=.*/plugins=(autojump git zsh-autosuggestions node osx xcode docker)/' ~/.zshrc
 sed -io 's/^ZSH_THEME.*/ZSH_THEME="avit"/' ~/.zshrc
 
+echo 'export PATH="/usr/local/opt/node@12/bin:$PATH"' >> ~/.zshrc
